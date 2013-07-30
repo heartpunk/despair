@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "Despair",
+  "description": "This extension attempts to detect despair induced obsessive browsing.",
+  "version": "0.0.1",
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "permissions": [
+    "history",
+    "tabs",
+    "background",
+    "http://reddit.com/"
+  ]
+}
